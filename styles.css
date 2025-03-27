@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Auth Pages */
+.auth-page {
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-header .logo {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Login Page */
+.login-page {
+    background: linear-gradient(135deg, #1995b7, #2c3e50);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.role-selection {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    color: #333;
+}
+
+.role-card {
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+}
+
+.role-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #1995b7;
+}
+
+/* Dashboard Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.specialist-card {
+    border-left: 4px solid #1995b7;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    border-radius: 5px !important;
+    margin-bottom: 10px;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .auth-card {
+        padding: 20px;
+    }
+    
+    .role-selection {
+        padding: 20px;
+    }
+}
